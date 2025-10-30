@@ -10,7 +10,7 @@ class Solution:
                 count[ord(c)-ord("a")]+=1
             res[tuple(count)].append(s)
         return res.values()
-sol=Solution();
+sol=Solution()
 print(sol.groupAnangrams(["tea","eat","ate","sure","urse"]))
 
 # Step-by-step with the example ["tea", "eat", "ate", "sure", "urse"]
